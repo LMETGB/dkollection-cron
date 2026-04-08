@@ -23,6 +23,12 @@ jobs:
           START_DATE=$(date +%Y-%m-%d)
           END_DATE=$(date -d "+3 months" +%Y-%m-%d)
           curl -s -X POST https://hotels.cloudbeds.com/booking/availability_calendar \
+            -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" \
+            -H "Accept: application/json, text/plain, */*" \
+            -H "Accept-Language: en-GB,en-US;q=0.9,en;q=0.8" \
+            -H "Origin: https://hotels.cloudbeds.com" \
+            -H "Referer: https://hotels.cloudbeds.com/en/reservation/czt5Yw" \
+            -H "Content-Type: application/x-www-form-urlencoded" \
             -d "start_date=${START_DATE}&end_date=${END_DATE}&property_id=305706" \
             -o data/cenote-del-mar.json
 
@@ -31,6 +37,12 @@ jobs:
           START_DATE=$(date +%Y-%m-%d)
           END_DATE=$(date -d "+3 months" +%Y-%m-%d)
           curl -s -X POST https://hotels.cloudbeds.com/booking/availability_calendar \
+            -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" \
+            -H "Accept: application/json, text/plain, */*" \
+            -H "Accept-Language: en-GB,en-US;q=0.9,en;q=0.8" \
+            -H "Origin: https://hotels.cloudbeds.com" \
+            -H "Referer: https://hotels.cloudbeds.com/en/reservation/tir4Ge" \
+            -H "Content-Type: application/x-www-form-urlencoded" \
             -d "start_date=${START_DATE}&end_date=${END_DATE}&property_id=315380" \
             -o data/the-cliff.json
 
