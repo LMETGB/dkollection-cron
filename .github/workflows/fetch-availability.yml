@@ -50,7 +50,7 @@ jobs:
         run: |
           python3 << 'PYTHON'
           import json
-          from datetime import datetime
+          from datetime import datetime, timedelta
           properties = {
               "cenote_del_mar": {
                   "name": "Cenote Del Mar",
@@ -84,6 +84,21 @@ jobs:
                               "min_stay": base.get("min_l", 1),
                               "closed_to_arrival": base.get("cta") == 1
                           }
+                  # Second pass: enforce min_stay by checking consecutive availability
+                  sorted_dates = sorted(dates.keys())
+                  for date_str in sorted_dates:
+                      info = dates[date_str]
+                      if info["available"] and info.get("min_stay") and info["min_stay"] > 1:
+                          dt = datetime.strptime(date_str, "%Y-%m-%d")
+                          can_stay = True
+                          for i in range(1, info["min_stay"]):
+                              next_date = (dt + timedelta(days=i)).strftime("%Y-%m-%d")
+                              next_info = dates.get(next_date)
+                              if not next_info or not next_info["available"]:
+                                  can_stay = False
+                                  break
+                          if not can_stay:
+                              dates[date_str]["available"] = False
                   summary["properties"][key] = {
                       "name": prop["name"],
                       "location": prop["location"],
