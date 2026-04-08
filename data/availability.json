@@ -1,11 +1,1051 @@
 {
-  "last_updated": "2026-04-08T11:26:32Z",
+  "last_updated": "2026-04-08T11:44:06Z",
   "properties": {
     "cenote_del_mar": {
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "name": "Cenote Del Mar",
+      "location": "Tulum, Mexico",
+      "currency": "USD",
+      "booking_url": "https://hotels.cloudbeds.com/reservation/czt5Yw",
+      "dates": {
+        "2026-04-09": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-04-10": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-04-11": {
+          "available": true,
+          "rate": 4200.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-04-12": {
+          "available": true,
+          "rate": 3500.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-04-13": {
+          "available": true,
+          "rate": 3500.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-04-14": {
+          "available": true,
+          "rate": 3500.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-04-15": {
+          "available": true,
+          "rate": 3500.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-04-16": {
+          "available": true,
+          "rate": 3500.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-04-17": {
+          "available": true,
+          "rate": 4200.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-04-18": {
+          "available": true,
+          "rate": 4200.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-04-19": {
+          "available": true,
+          "rate": 3500.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-04-20": {
+          "available": true,
+          "rate": 3500.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-04-21": {
+          "available": true,
+          "rate": 3500.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-04-22": {
+          "available": true,
+          "rate": 3500.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-04-23": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-04-24": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-04-25": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-04-26": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-04-27": {
+          "available": true,
+          "rate": 3500.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-04-28": {
+          "available": true,
+          "rate": 3500.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-04-29": {
+          "available": true,
+          "rate": 3500.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-04-30": {
+          "available": true,
+          "rate": 3500.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-05-01": {
+          "available": true,
+          "rate": 4200.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-05-02": {
+          "available": true,
+          "rate": 4200.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-05-03": {
+          "available": true,
+          "rate": 3500.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-05-04": {
+          "available": true,
+          "rate": 3500.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-05-05": {
+          "available": true,
+          "rate": 3500.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-05-06": {
+          "available": true,
+          "rate": 3500.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-05-07": {
+          "available": true,
+          "rate": 3500.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-05-08": {
+          "available": true,
+          "rate": 4200.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-05-09": {
+          "available": true,
+          "rate": 4200.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-05-10": {
+          "available": true,
+          "rate": 3500.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-05-11": {
+          "available": true,
+          "rate": 3500.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-05-12": {
+          "available": true,
+          "rate": 3500.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-05-13": {
+          "available": true,
+          "rate": 3500.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-05-14": {
+          "available": true,
+          "rate": 3500.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-05-15": {
+          "available": true,
+          "rate": 4200.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-05-16": {
+          "available": true,
+          "rate": 4200.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-05-17": {
+          "available": true,
+          "rate": 3500.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-05-18": {
+          "available": true,
+          "rate": 3500.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-05-19": {
+          "available": true,
+          "rate": 3500.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-05-20": {
+          "available": true,
+          "rate": 3500.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-05-21": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-05-22": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-05-23": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-05-24": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-05-25": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-05-26": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-05-27": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-05-28": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-05-29": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-05-30": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-05-31": {
+          "available": true,
+          "rate": 3500.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-06-01": {
+          "available": true,
+          "rate": 2250.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-06-02": {
+          "available": true,
+          "rate": 2250.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-06-03": {
+          "available": true,
+          "rate": 2250.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-06-04": {
+          "available": true,
+          "rate": 2250.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-06-05": {
+          "available": true,
+          "rate": 2700.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-06-06": {
+          "available": true,
+          "rate": 2700.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-06-07": {
+          "available": true,
+          "rate": 2250.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-06-08": {
+          "available": true,
+          "rate": 2250.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-06-09": {
+          "available": true,
+          "rate": 2250.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-06-10": {
+          "available": true,
+          "rate": 2250.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-06-11": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-06-12": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-06-13": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-06-14": {
+          "available": true,
+          "rate": 2250.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-06-15": {
+          "available": true,
+          "rate": 2250.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-06-16": {
+          "available": true,
+          "rate": 2250.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-06-17": {
+          "available": true,
+          "rate": 2250.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-06-18": {
+          "available": true,
+          "rate": 2250.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-06-19": {
+          "available": true,
+          "rate": 2700.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-06-20": {
+          "available": true,
+          "rate": 2700.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-06-21": {
+          "available": true,
+          "rate": 2250.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-06-22": {
+          "available": true,
+          "rate": 2250.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-06-23": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-06-24": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-06-25": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-06-26": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-06-27": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-06-28": {
+          "available": true,
+          "rate": 2250.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-06-29": {
+          "available": true,
+          "rate": 2250.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-06-30": {
+          "available": true,
+          "rate": 2250.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-07-01": {
+          "available": true,
+          "rate": 2250.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-07-02": {
+          "available": true,
+          "rate": 2250.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-07-03": {
+          "available": true,
+          "rate": 2700.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-07-04": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-07-05": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-07-06": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-07-07": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-07-08": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        }
+      }
     },
     "the_cliff": {
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "name": "The Cliff",
+      "location": "Brighton, UK",
+      "currency": "GBP",
+      "booking_url": "https://hotels.cloudbeds.com/reservation/tir4Ge",
+      "dates": {
+        "2026-04-08": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-04-09": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-04-10": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-04-11": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-04-12": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-04-13": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-04-14": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-04-15": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-04-16": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-04-17": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-04-18": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-04-19": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-04-20": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-04-21": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-04-22": {
+          "available": true,
+          "rate": 900.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-04-23": {
+          "available": true,
+          "rate": 900.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-04-24": {
+          "available": true,
+          "rate": 2470.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-04-25": {
+          "available": true,
+          "rate": 2470.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-04-26": {
+          "available": true,
+          "rate": 900.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-04-27": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-04-28": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-04-29": {
+          "available": true,
+          "rate": 900.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-04-30": {
+          "available": true,
+          "rate": 900.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-05-01": {
+          "available": true,
+          "rate": 2470.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-05-02": {
+          "available": true,
+          "rate": 2470.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-05-03": {
+          "available": true,
+          "rate": 2470.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-05-04": {
+          "available": true,
+          "rate": 900.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-05-05": {
+          "available": true,
+          "rate": 900.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-05-06": {
+          "available": true,
+          "rate": 900.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-05-07": {
+          "available": true,
+          "rate": 900.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-05-08": {
+          "available": true,
+          "rate": 2470.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-05-09": {
+          "available": true,
+          "rate": 2470.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-05-10": {
+          "available": true,
+          "rate": 900.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-05-11": {
+          "available": true,
+          "rate": 900.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-05-12": {
+          "available": true,
+          "rate": 900.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-05-13": {
+          "available": true,
+          "rate": 900.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-05-14": {
+          "available": true,
+          "rate": 900.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-05-15": {
+          "available": true,
+          "rate": 2470.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-05-16": {
+          "available": true,
+          "rate": 2470.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-05-17": {
+          "available": true,
+          "rate": 900.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-05-18": {
+          "available": true,
+          "rate": 900.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-05-19": {
+          "available": true,
+          "rate": 900.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-05-20": {
+          "available": true,
+          "rate": 900.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-05-21": {
+          "available": true,
+          "rate": 900.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-05-22": {
+          "available": true,
+          "rate": 2210.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-05-23": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-05-24": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-05-25": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-05-26": {
+          "available": true,
+          "rate": 1700.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-05-27": {
+          "available": true,
+          "rate": 1700.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-05-28": {
+          "available": true,
+          "rate": 1700.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-05-29": {
+          "available": true,
+          "rate": 2210.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-05-30": {
+          "available": true,
+          "rate": 2210.0,
+          "min_stay": 3,
+          "closed_to_arrival": false
+        },
+        "2026-05-31": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-06-01": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-06-02": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-06-03": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-06-04": {
+          "available": true,
+          "rate": 900.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-06-05": {
+          "available": true,
+          "rate": 2470.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-06-06": {
+          "available": true,
+          "rate": 2470.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-06-07": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-06-08": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-06-09": {
+          "available": true,
+          "rate": 900.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-06-10": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-06-11": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-06-12": {
+          "available": true,
+          "rate": 2470.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-06-13": {
+          "available": true,
+          "rate": 2470.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-06-14": {
+          "available": true,
+          "rate": 900.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-06-15": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-06-16": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-06-17": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-06-18": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-06-19": {
+          "available": true,
+          "rate": 2470.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-06-20": {
+          "available": true,
+          "rate": 2470.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-06-21": {
+          "available": true,
+          "rate": 900.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-06-22": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-06-23": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-06-24": {
+          "available": true,
+          "rate": 900.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-06-25": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-06-26": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-06-27": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-06-28": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-06-29": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-06-30": {
+          "available": false,
+          "rate": null,
+          "min_stay": null
+        },
+        "2026-07-01": {
+          "available": true,
+          "rate": 1900.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-07-02": {
+          "available": true,
+          "rate": 1900.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-07-03": {
+          "available": true,
+          "rate": 2470.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-07-04": {
+          "available": true,
+          "rate": 2470.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-07-05": {
+          "available": true,
+          "rate": 1900.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-07-06": {
+          "available": true,
+          "rate": 1900.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-07-07": {
+          "available": true,
+          "rate": 1900.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        },
+        "2026-07-08": {
+          "available": true,
+          "rate": 1900.0,
+          "min_stay": 2,
+          "closed_to_arrival": false
+        }
+      }
     }
   }
 }
