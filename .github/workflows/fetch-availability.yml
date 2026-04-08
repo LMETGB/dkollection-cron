@@ -1,0 +1,94 @@
+name: Fetch Cloudbeds Availability
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-availability:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create data directory
+        run: mkdir -p data
+
+      - name: Fetch Cenote Del Mar availability
+        run: |
+          START_DATE=$(date +%Y-%m-%d)
+          END_DATE=$(date -d "+3 months" +%Y-%m-%d)
+          curl -s -X POST https://hotels.cloudbeds.com/booking/availability_calendar \
+            -d "start_date=${START_DATE}&end_date=${END_DATE}&property_id=305706" \
+            -o data/cenote-del-mar.json
+
+      - name: Fetch The Cliff availability
+        run: |
+          START_DATE=$(date +%Y-%m-%d)
+          END_DATE=$(date -d "+3 months" +%Y-%m-%d)
+          curl -s -X POST https://hotels.cloudbeds.com/booking/availability_calendar \
+            -d "start_date=${START_DATE}&end_date=${END_DATE}&property_id=315380" \
+            -o data/the-cliff.json
+
+      - name: Generate combined availability summary
+        run: |
+          python3 << 'PYTHON'
+          import json
+          from datetime import datetime
+          properties = {
+              "cenote_del_mar": {
+                  "name": "Cenote Del Mar",
+                  "location": "Tulum, Mexico",
+                  "currency": "USD",
+                  "file": "data/cenote-del-mar.json",
+                  "booking_url": "https://hotels.cloudbeds.com/reservation/czt5Yw"
+              },
+              "the_cliff": {
+                  "name": "The Cliff",
+                  "location": "Brighton, UK",
+                  "currency": "GBP",
+                  "file": "data/the-cliff.json",
+                  "booking_url": "https://hotels.cloudbeds.com/reservation/tir4Ge"
+              }
+          }
+          summary = {"last_updated": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"), "properties": {}}
+          for key, prop in properties.items():
+              try:
+                  with open(prop["file"], "r") as f:
+                      raw = json.load(f)
+                  dates = {}
+                  for date_str, entries in raw.items():
+                      if len(entries) == 0:
+                          dates[date_str] = {"available": False, "rate": None, "min_stay": None}
+                      else:
+                          base = next((e for e in entries if e.get("package_id") == "0"), entries[0])
+                          dates[date_str] = {
+                              "available": base.get("avail") == 1 and base.get("closed") == 0,
+                              "rate": float(base["rate"]),
+                              "min_stay": base.get("min_l", 1),
+                              "closed_to_arrival": base.get("cta") == 1
+                          }
+                  summary["properties"][key] = {
+                      "name": prop["name"],
+                      "location": prop["location"],
+                      "currency": prop["currency"],
+                      "booking_url": prop["booking_url"],
+                      "dates": dates
+                  }
+              except Exception as e:
+                  summary["properties"][key] = {"error": str(e)}
+          with open("data/availability.json", "w") as f:
+              json.dump(summary, f, indent=2)
+          print("Summary generated successfully")
+          PYTHON
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --quiet --cached && echo "No changes" || (git commit -m "Update availability $(date -u +%Y-%m-%dT%H:%M:%SZ)" && git push)
