@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-17T12:10:05Z",
+  "last_updated": "2026-04-17T14:03:40Z",
   "properties": {
     "cenote_del_mar": {
       "name": "Cenote Del Mar",
@@ -649,16 +649,15 @@
           "closed_to_arrival": false
         },
         "2026-05-09": {
-          "available": true,
+          "available": false,
           "rate": 2470.0,
           "min_stay": 2,
           "closed_to_arrival": false
         },
         "2026-05-10": {
           "available": false,
-          "rate": 900.0,
-          "min_stay": 2,
-          "closed_to_arrival": false
+          "rate": null,
+          "min_stay": null
         },
         "2026-05-11": {
           "available": false,
