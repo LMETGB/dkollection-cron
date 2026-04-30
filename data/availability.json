@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-30T11:14:45Z",
+  "last_updated": "2026-04-30T13:06:42Z",
   "properties": {
     "cenote_del_mar": {
       "name": "Cenote Del Mar",
@@ -10,43 +10,43 @@
         "2026-05-01": {
           "available": true,
           "rate": 4200.0,
-          "min_stay": 3,
+          "min_stay": 2,
           "closed_to_arrival": false
         },
         "2026-05-02": {
           "available": true,
           "rate": 4200.0,
-          "min_stay": 3,
+          "min_stay": 2,
           "closed_to_arrival": false
         },
         "2026-05-03": {
           "available": true,
           "rate": 3500.0,
-          "min_stay": 3,
+          "min_stay": 2,
           "closed_to_arrival": false
         },
         "2026-05-04": {
           "available": true,
           "rate": 3500.0,
-          "min_stay": 3,
+          "min_stay": 2,
           "closed_to_arrival": false
         },
         "2026-05-05": {
           "available": true,
           "rate": 3500.0,
-          "min_stay": 3,
+          "min_stay": 2,
           "closed_to_arrival": false
         },
         "2026-05-06": {
-          "available": false,
+          "available": true,
           "rate": 3500.0,
-          "min_stay": 3,
+          "min_stay": 2,
           "closed_to_arrival": false
         },
         "2026-05-07": {
           "available": false,
           "rate": 3500.0,
-          "min_stay": 3,
+          "min_stay": 2,
           "closed_to_arrival": false
         },
         "2026-05-08": {
@@ -87,37 +87,37 @@
         "2026-05-15": {
           "available": true,
           "rate": 4200.0,
-          "min_stay": 3,
+          "min_stay": 2,
           "closed_to_arrival": false
         },
         "2026-05-16": {
           "available": true,
           "rate": 4200.0,
-          "min_stay": 3,
+          "min_stay": 2,
           "closed_to_arrival": false
         },
         "2026-05-17": {
           "available": true,
           "rate": 3500.0,
-          "min_stay": 3,
+          "min_stay": 2,
           "closed_to_arrival": false
         },
         "2026-05-18": {
           "available": true,
           "rate": 3500.0,
-          "min_stay": 3,
+          "min_stay": 2,
           "closed_to_arrival": false
         },
         "2026-05-19": {
-          "available": false,
+          "available": true,
           "rate": 3500.0,
-          "min_stay": 3,
+          "min_stay": 2,
           "closed_to_arrival": false
         },
         "2026-05-20": {
           "available": false,
           "rate": 3500.0,
-          "min_stay": 3,
+          "min_stay": 2,
           "closed_to_arrival": false
         },
         "2026-05-21": {
@@ -173,7 +173,7 @@
         "2026-05-31": {
           "available": true,
           "rate": 3500.0,
-          "min_stay": 3,
+          "min_stay": 2,
           "closed_to_arrival": false
         },
         "2026-06-01": {
