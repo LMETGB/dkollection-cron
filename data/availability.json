@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-03T01:42:15Z",
+  "last_updated": "2026-06-03T12:01:39Z",
   "properties": {
     "cenote_del_mar": {
       "name": "Cenote Del Mar",
@@ -7,11 +7,6 @@
       "currency": "USD",
       "booking_url": "https://hotels.cloudbeds.com/reservation/czt5Yw",
       "dates": {
-        "2026-06-03": {
-          "available": false,
-          "rate": null,
-          "min_stay": null
-        },
         "2026-06-04": {
           "available": false,
           "rate": null,
@@ -990,46 +985,40 @@
           "closed_to_arrival": false
         },
         "2026-08-22": {
-          "available": true,
+          "available": false,
           "rate": 2730.0,
           "min_stay": 2,
           "closed_to_arrival": false
         },
         "2026-08-23": {
-          "available": true,
-          "rate": 2100.0,
-          "min_stay": 2,
-          "closed_to_arrival": false
+          "available": false,
+          "rate": null,
+          "min_stay": null
         },
         "2026-08-24": {
-          "available": true,
-          "rate": 2100.0,
-          "min_stay": 2,
-          "closed_to_arrival": false
+          "available": false,
+          "rate": null,
+          "min_stay": null
         },
         "2026-08-25": {
-          "available": true,
-          "rate": 2100.0,
-          "min_stay": 2,
-          "closed_to_arrival": false
+          "available": false,
+          "rate": null,
+          "min_stay": null
         },
         "2026-08-26": {
-          "available": true,
-          "rate": 2100.0,
-          "min_stay": 2,
-          "closed_to_arrival": false
+          "available": false,
+          "rate": null,
+          "min_stay": null
         },
         "2026-08-27": {
-          "available": true,
-          "rate": 2100.0,
-          "min_stay": 2,
-          "closed_to_arrival": false
+          "available": false,
+          "rate": null,
+          "min_stay": null
         },
         "2026-08-28": {
-          "available": true,
-          "rate": 2730.0,
-          "min_stay": 3,
-          "closed_to_arrival": false
+          "available": false,
+          "rate": null,
+          "min_stay": null
         },
         "2026-08-29": {
           "available": true,
