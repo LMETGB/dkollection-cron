@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-15T05:39:17Z",
+  "last_updated": "2026-06-15T12:26:19Z",
   "properties": {
     "cenote_del_mar": {
       "name": "Cenote Del Mar",
@@ -7,12 +7,6 @@
       "currency": "USD",
       "booking_url": "https://hotels.cloudbeds.com/reservation/czt5Yw",
       "dates": {
-        "2026-06-15": {
-          "available": true,
-          "rate": 2250.0,
-          "min_stay": 3,
-          "closed_to_arrival": false
-        },
         "2026-06-16": {
           "available": true,
           "rate": 2250.0,
