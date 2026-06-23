@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-23T13:22:38Z",
+  "last_updated": "2026-06-23T16:09:41Z",
   "properties": {
     "cenote_del_mar": {
       "name": "Cenote Del Mar",
@@ -548,11 +548,6 @@
       "currency": "GBP",
       "booking_url": "https://hotels.cloudbeds.com/reservation/tir4Ge",
       "dates": {
-        "2026-06-23": {
-          "available": false,
-          "rate": null,
-          "min_stay": null
-        },
         "2026-06-24": {
           "available": false,
           "rate": null,
@@ -591,7 +586,7 @@
         },
         "2026-07-01": {
           "available": false,
-          "rate": 1900.0,
+          "rate": 1500.0,
           "min_stay": 2,
           "closed_to_arrival": false
         },
@@ -612,7 +607,7 @@
         },
         "2026-07-05": {
           "available": false,
-          "rate": 1900.0,
+          "rate": 1500.0,
           "min_stay": 2,
           "closed_to_arrival": false
         },
@@ -628,13 +623,13 @@
         },
         "2026-07-08": {
           "available": true,
-          "rate": 1900.0,
+          "rate": 1500.0,
           "min_stay": 2,
           "closed_to_arrival": false
         },
         "2026-07-09": {
           "available": false,
-          "rate": 1900.0,
+          "rate": 1500.0,
           "min_stay": 2,
           "closed_to_arrival": false
         },
@@ -650,31 +645,31 @@
         },
         "2026-07-12": {
           "available": true,
-          "rate": 1900.0,
+          "rate": 1500.0,
           "min_stay": 2,
           "closed_to_arrival": false
         },
         "2026-07-13": {
           "available": true,
-          "rate": 1900.0,
+          "rate": 1500.0,
           "min_stay": 2,
           "closed_to_arrival": false
         },
         "2026-07-14": {
           "available": true,
-          "rate": 1900.0,
+          "rate": 1500.0,
           "min_stay": 2,
           "closed_to_arrival": false
         },
         "2026-07-15": {
           "available": true,
-          "rate": 1900.0,
+          "rate": 1500.0,
           "min_stay": 2,
           "closed_to_arrival": false
         },
         "2026-07-16": {
           "available": false,
-          "rate": 1900.0,
+          "rate": 1500.0,
           "min_stay": 2,
           "closed_to_arrival": false
         },
@@ -690,25 +685,25 @@
         },
         "2026-07-19": {
           "available": true,
-          "rate": 1900.0,
+          "rate": 1500.0,
           "min_stay": 2,
           "closed_to_arrival": false
         },
         "2026-07-20": {
           "available": true,
-          "rate": 1900.0,
+          "rate": 1500.0,
           "min_stay": 2,
           "closed_to_arrival": false
         },
         "2026-07-21": {
           "available": true,
-          "rate": 1900.0,
+          "rate": 1500.0,
           "min_stay": 2,
           "closed_to_arrival": false
         },
         "2026-07-22": {
           "available": false,
-          "rate": 1900.0,
+          "rate": 1500.0,
           "min_stay": 2,
           "closed_to_arrival": false
         },
@@ -724,37 +719,37 @@
         },
         "2026-07-25": {
           "available": true,
-          "rate": 2470.0,
+          "rate": 1900.0,
           "min_stay": 2,
           "closed_to_arrival": false
         },
         "2026-07-26": {
           "available": true,
-          "rate": 2100.0,
+          "rate": 1700.0,
           "min_stay": 2,
           "closed_to_arrival": false
         },
         "2026-07-27": {
           "available": true,
-          "rate": 2100.0,
+          "rate": 1700.0,
           "min_stay": 2,
           "closed_to_arrival": false
         },
         "2026-07-28": {
           "available": true,
-          "rate": 2100.0,
+          "rate": 1700.0,
           "min_stay": 2,
           "closed_to_arrival": false
         },
         "2026-07-29": {
           "available": true,
-          "rate": 2100.0,
+          "rate": 1700.0,
           "min_stay": 2,
           "closed_to_arrival": false
         },
         "2026-07-30": {
           "available": false,
-          "rate": 2100.0,
+          "rate": 1700.0,
           "min_stay": 2,
           "closed_to_arrival": false
         },
