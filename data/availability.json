@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-08T13:07:39Z",
+  "last_updated": "2026-07-08T15:50:17Z",
   "properties": {
     "cenote_del_mar": {
       "name": "Cenote Del Mar",
@@ -552,12 +552,6 @@
       "currency": "GBP",
       "booking_url": "https://hotels.cloudbeds.com/reservation/tir4Ge",
       "dates": {
-        "2026-07-08": {
-          "available": true,
-          "rate": 1000.0,
-          "min_stay": 2,
-          "closed_to_arrival": false
-        },
         "2026-07-09": {
           "available": false,
           "rate": 1000.0,
@@ -689,73 +683,73 @@
         },
         "2026-08-02": {
           "available": true,
-          "rate": 1900.0,
+          "rate": 1700.0,
           "min_stay": 2,
           "closed_to_arrival": false
         },
         "2026-08-03": {
           "available": true,
-          "rate": 1900.0,
+          "rate": 1700.0,
           "min_stay": 2,
           "closed_to_arrival": false
         },
         "2026-08-04": {
           "available": true,
-          "rate": 1900.0,
+          "rate": 1700.0,
           "min_stay": 2,
           "closed_to_arrival": false
         },
         "2026-08-05": {
           "available": true,
-          "rate": 1900.0,
+          "rate": 1700.0,
           "min_stay": 2,
           "closed_to_arrival": false
         },
         "2026-08-06": {
           "available": true,
-          "rate": 1900.0,
+          "rate": 1700.0,
           "min_stay": 2,
           "closed_to_arrival": false
         },
         "2026-08-07": {
           "available": true,
-          "rate": 2730.0,
+          "rate": 2500.0,
           "min_stay": 2,
           "closed_to_arrival": false
         },
         "2026-08-08": {
           "available": true,
-          "rate": 2730.0,
+          "rate": 2500.0,
           "min_stay": 2,
           "closed_to_arrival": false
         },
         "2026-08-09": {
           "available": true,
-          "rate": 1900.0,
+          "rate": 1700.0,
           "min_stay": 2,
           "closed_to_arrival": false
         },
         "2026-08-10": {
           "available": true,
-          "rate": 1900.0,
+          "rate": 1700.0,
           "min_stay": 2,
           "closed_to_arrival": false
         },
         "2026-08-11": {
           "available": true,
-          "rate": 1900.0,
+          "rate": 1700.0,
           "min_stay": 2,
           "closed_to_arrival": false
         },
         "2026-08-12": {
           "available": true,
-          "rate": 1900.0,
+          "rate": 1700.0,
           "min_stay": 2,
           "closed_to_arrival": false
         },
         "2026-08-13": {
           "available": false,
-          "rate": 1900.0,
+          "rate": 1700.0,
           "min_stay": 2,
           "closed_to_arrival": false
         },
