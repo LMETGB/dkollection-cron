@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-12T08:09:53Z",
+  "last_updated": "2026-11-12T16:59:49Z",
   "properties": {
     "cenote_del_mar": {
       "name": "Cenote Del Mar",
@@ -521,12 +521,6 @@
       "currency": "GBP",
       "booking_url": "https://hotels.cloudbeds.com/reservation/tir4Ge",
       "dates": {
-        "2026-11-12": {
-          "available": true,
-          "rate": 900.0,
-          "min_stay": 2,
-          "closed_to_arrival": false
-        },
         "2026-11-13": {
           "available": true,
           "rate": 1350.0,
